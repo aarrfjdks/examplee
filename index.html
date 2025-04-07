@@ -2,75 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Portal</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    .container {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background-color: white;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .profile {
-      display: flex;
-      align-items: center;
-      gap: 1.5rem;
-    }
-    .profile img {
-      border-radius: 50%;
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
-    }
-    .profile-info {
-      flex: 1;
-    }
-    .profile-info h1 {
-      margin: 0;
-      font-size: 1.8rem;
-    }
-    .profile-info p {
-      margin: 0.3rem 0;
-      color: #555;
-    }
-    .footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #999;
-    }
-  </style>
+  <title>ELWP Volunteer</title>
+  <link rel="stylesheet" href="https://cdn.tailwindcss.com">
 </head>
-<body>
-  <header>
-    <h1>Welcome to the Profile Portal</h1>
-  </header>
-  <div class="container">
-    <div class="profile">
-      <img src="https://via.placeholder.com/120" alt="Profile Picture">
-      <div class="profile-info">
-        <h1>John Doe</h1>
-        <p>Email: <a href="mailto:john@example.com">john@example.com</a></p>
-        <p>Skills: HTML, CSS, JavaScript, Troubleshooting</p>
-        <p>Bio: Enthusiastic developer who enjoys clean design and intuitive user experiences.</p>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <header class="bg-white p-4 shadow">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="logoelwp.jpeg" alt="ELWP Logo" class="w-10 h-10">
+        <h1 class="text-xl font-bold">ELWP Volunteer</h1>
       </div>
+      <nav class="flex gap-4">
+        <a href="#" class="text-sm">Explore</a>
+        <a href="#" class="text-sm">Events</a>
+        <a href="#" class="text-sm">Chats</a>
+        <a href="#" class="text-sm">Projects</a>
+      </nav>
     </div>
-  </div>
-  <div class="footer">
-    &copy; 2025 John Doe. All rights reserved.
-  </div>
+  </header>
+
+  <main class="p-8 max-w-4xl mx-auto">
+    <section class="flex gap-6 items-center mb-6">
+      <img src="https://via.placeholder.com/150" class="rounded-full w-24 h-24" alt="Profile photo of Jenice W.">
+      <div>
+        <h2 class="text-2xl font-bold">Jenice W.</h2>
+        <p>Product Designer at Luminous</p>
+        <p>San Francisco, CA</p>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold mb-3">Your Circles</h3>
+      <div class="grid grid-cols-3 gap-4">
+        <div><img src="https://via.placeholder.com/100" alt="Luminous Circle"><p>Luminous</p></div>
+        <div><img src="https://via.placeholder.com/100" alt="Women in Tech"><p>Women in Tech</p></div>
+        <div><img src="https://via.placeholder.com/100" alt="Designers"><p>Designers</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="text-xl font-semibold mb-3">Your Projects</h3>
+      <div class="grid grid-cols-2 gap-4">
+        <div><img src="https://via.placeholder.com/150" alt="Luminous Project"><p>Luminous</p></div>
+        <div><img src="https://via.placeholder.com/150" alt="UX Research"><p>UX Research Project</p></div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
