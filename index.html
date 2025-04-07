@@ -1,78 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Volunteer</title>
+  <meta charset="UTF-8" />
+  <title>Volunteer Profile</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white text-black font-serif">
+<body class="bg-yellow-50 text-purple-900 font-mono">
 
-  <div class="bg-gray-300 p-2 sticky top-0">
-    <div class="flex justify-between items-center px-4">
+  <div class="bg-pink-300 p-3 sticky top-0 z-10">
+    <div class="flex justify-between items-center px-6">
       <div class="flex items-center">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKiitlaToAlUS56lWl08Fe0yfL_So_35JXjQ&s" class="w-8 h-8 mr-2" />
-        <h1 class="text-lg"><a href="index.html">ELWP</a></h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKiitlaToAlUS56lWl08Fe0yfL_So_35JXjQ&s" class="w-10 h-10 mr-3" />
+        <h1 class="text-xl font-bold"><a href="index.html">ELWP</a></h1>
       </div>
-      <div>
-        <a href="#" class="mx-2">Explore</a>
+      <div class="text-sm space-x-4">
+        <a href="#">Explore</a>
         <a href="#">Events</a>
-        <a href="teams.html" class="ml-2">Chats</a>
-        <a href="#" class="ml-2">Projects</a>
+        <a href="teams.html">Chats</a>
+        <a href="#">Projects</a>
       </div>
     </div>
   </div>
 
-  <div class="max-w-4xl mx-auto py-8 px-3">
+  <main class="max-w-4xl mx-auto px-4 py-10">
     <!-- Profile Section -->
-    <div class="flex flex-col sm:flex-row">
-      <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" class="rounded-full w-24 h-24" />
-      <div class="ml-4 mt-2">
-        <h2 class="text-xl font-bold">Carlos W.</h2>
-        <p>Designer</p>
-        <p>California</p>
+    <div class="flex flex-col sm:flex-row items-start gap-6">
+      <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" class="rounded-full w-28 h-28 border-4 border-green-400" />
+      <div>
+        <h2 class="text-2xl font-extrabold">Carlos W.</h2>
+        <p class="text-base">UX/Graphic Person</p>
+        <p class="text-sm text-gray-700">Somewhere in Cali</p>
       </div>
     </div>
 
     <!-- Circles -->
-    <div class="mt-10">
-      <h3 class="text-lg mb-2">Circles</h3>
-      <div class="grid grid-cols-3 gap-3">
-        <div>
-          <img src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" class="rounded-full w-20 h-20" />
-          <p class="text-center">Circle A</p>
+    <div class="mt-12">
+      <h3 class="text-xl font-bold mb-4 text-blue-800">Circles</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+        <div class="text-center">
+          <img src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" class="rounded-full w-20 h-20 mx-auto border border-red-500" />
+          <p class="mt-1 text-pink-800 font-semibold">Circle A</p>
         </div>
-        <div>
-          <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" class="rounded-full w-20 h-20" />
-          <p class="text-center">Circle B</p>
+        <div class="text-center">
+          <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" class="rounded-full w-20 h-20 mx-auto border border-red-500" />
+          <p class="mt-1 text-pink-800 font-semibold">Circle B</p>
         </div>
-        <div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHRArM_LlJg-p2HNeDX3sobLEXdJe2M1gBww&s" class="rounded-full w-20 h-20" />
-          <p class="text-center">Circle C</p>
+        <div class="text-center">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHRArM_LlJg-p2HNeDX3sobLEXdJe2M1gBww&s" class="rounded-full w-20 h-20 mx-auto border border-red-500" />
+          <p class="mt-1 text-pink-800 font-semibold">Circle C</p>
         </div>
       </div>
     </div>
 
     <!-- Projects -->
-    <div class="mt-10">
-      <h3 class="text-lg mb-2">Projects</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div class="bg-gray-200 p-2">
-          <img src="https://img.freepik.com/free-vector/random-fun-hand-drawn-doodle-pattern-background_1048-19869.jpg" style="width: 100%; height: 150px;" />
-          <h4 class="mt-2 font-semibold">Project 1</h4>
-          <p>Stuff about it</p>
+    <div class="mt-12">
+      <h3 class="text-xl font-bold mb-4 text-blue-800">Projects</h3>
+      <div class="grid sm:grid-cols-2 gap-6">
+        <div class="bg-purple-100 p-4 border-2 border-dashed border-blue-300">
+          <img src="https://img.freepik.com/free-vector/random-fun-hand-drawn-doodle-pattern-background_1048-19869.jpg" class="w-full h-32 object-cover mb-2" />
+          <h4 class="text-lg font-bold text-red-800">Project One</h4>
+          <p class="text-sm">Stuff about this project maybe idk.</p>
         </div>
-        <div class="bg-gray-200 p-2">
-          <img src="https://img.freepik.com/free-vector/set-black-irregular-blobs-random-liquid-uneven-drop-shape-amorphous-splodges-asymmetric-spots_88138-2073.jpg" style="width: 100%; height: 150px;" />
-          <h4 class="mt-2 font-semibold">Project 2</h4>
-          <p>Stuff here too</p>
+        <div class="bg-purple-100 p-4 border-2 border-dashed border-blue-300">
+          <img src="https://img.freepik.com/free-vector/set-black-irregular-blobs-random-liquid-uneven-drop-shape-amorphous-splodges-asymmetric-spots_88138-2073.jpg" class="w-full h-32 object-cover mb-2" />
+          <h4 class="text-lg font-bold text-red-800">Project Two</h4>
+          <p class="text-sm">More vague project info goes here.</p>
         </div>
       </div>
     </div>
-  </div>
+  </main>
 
-  <div class="text-center text-sm mt-12 mb-4 text-gray-600">
-    © ELWP 2025
-  </div>
+  <footer class="text-center text-xs py-6 text-gray-800 bg-yellow-100 mt-10">
+    © 2025 ELWP - All the rights or something
+  </footer>
 
 </body>
 </html>
